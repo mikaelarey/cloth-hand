@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tech2etc Ecommerce Website</title>
+	<script src="https://kit.fontawesome.com/43d25964f6.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+		<section id="header">
+			<a href="#"><img src="imgs/logo.jpg" class="logo" height="80" alt="" ></a>
+		
+			<div>
+				<ul id="navbar">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="shop.html">Shop</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+					<a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+				</ul>
+			</div>
+			<div id="mobile">
+				<a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+				<i id="bar" class="fas fa-outdent"></i>
+			</div>
+		</section>
+
+		<section id="page-header" class="cart-header">
+			<h2>#cart</h2>
+			<p>Add your coupon code & SAVE up to 70%!</p>
+		</section>
+
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                        <td><img src="imgs/products/f2.jfif" alt=""></td>
+                        <td>Rust</td>
+                        <td>$89.00</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$89.00</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                        <td><img src="imgs/products/f3.jfif" alt=""></td>
+                        <td>brown</td>
+                        <td>$89.00</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$89.00</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                        <td><img src="imgs/products/f5.jfif" alt=""></td>
+                        <td>floral (cream)</td>
+                        <td>$89.00</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$89.00</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                        <td><img src="imgs/products/f6.jfif" alt=""></td>
+                        <td>floral (black)</td>
+                        <td>$89.00</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$89.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h3>Apply Coupon</h3>
+                <div>
+                    <input type="text" placeholder="Enter Your Coupon">
+                    <button class="normal">Apply</button>
+                </div>
+            </div>
+
+            <div id="subtotal">
+                <h3>Cart Total</h3>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>$ 335.00</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 356.00</strong></td>
+                </table>
+                <button class="normal">Proceed to checkout</button>
+            </div>
+        </section>
+
+		<footer class="section-p1">
+			<div class="col">
+				<img class="logo" src="imgs/logo.jpg" class="logo" height="80" alt="">
+				<h4>Contact</h4>
+				<p><strong>Address:</strong> Zone 1 Molugan, El Salvador City, Misamis Oriental</p>
+				<p><strong>Phone:</strong> +63 926 2370 781</p>
+				<div class="follow">
+					<h4>Follow us</h4>
+					<div class="icon">
+						<i class="fa-brands fa-facebook-f"></i>
+						<i class="fa-brands fa-twitter"></i>
+						<i class="fa-brands fa-instagram"></i>
+						<i class="fa-brands fa-pinterest-p"></i>
+						<i class="fa-brands fa-youtube"></i>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<h4>About</h4>
+				<a href="#">About us</a>
+				<a href="#">Delivery Information</a>
+				<a href="#">Privacy Policy</a>
+				<a href="#">Terms & Conditions</a>
+				<a href="#">Contact Us</a>
+			</div>
+
+			<div class="col">
+				<h4>My Account</h4>
+				<a href="#">Sign In</a>
+				<a href="#">View Cart</a>
+				<a href="#">My Wishlist</a>
+				<a href="#">Track My Order</a>
+				<a href="#">Help</a>
+			</div>
+
+			<div class="col install">
+				<h4>Install App</h4>
+				<p>From App Store or Google Play</p>
+				<div class="row">
+					<img src="imgs/pay/app.jpg" height="40" alt="">
+					<img src="imgs/pay/google.jpg" height="40" alt="">
+				</div>
+				<p>Secured Payment Gateways</p>
+				<img src="imgs/pay/cards.jpg" alt="">
+			</div>
+
+			<div class="copyright">
+				<p>© 2021, Tech2 etc - HTML CSS Ecommerce Template</p>
+			</div>
+		</footer>
+
+	<script src="script.js" class="section-p1"></script>
+</body>
+
+</html>
